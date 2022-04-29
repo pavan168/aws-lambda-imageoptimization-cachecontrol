@@ -4,7 +4,7 @@
   "description": "This project consist of a AWS Lambda function that accepts a S3 image file through AWS SNS topic, compress & optimizes using ImageMagick library, add a cache control header and write the output to a designated S3 bucket.",
   "main": "index.js",
   "dependencies": {
-    "async": "^2.6.1",
+    "async": "^2.6.4",
     "gm": "^1.23.1",
     "path": "^0.12.7"
   },
